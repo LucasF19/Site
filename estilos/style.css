@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #7e0f7e, #ce3ace);
+    background-attachment: fixed;
+}
+
+main {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px black;
+}
