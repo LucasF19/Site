@@ -7,6 +7,7 @@
 
 body {
     background-image: linear-gradient(to bottom, #7e0f7e, #ce3ace);
+    background-attachment: fixed;
 }
 
 main {
