@@ -1,1 +1,77 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+
+.constelacao-de-libra img, .constelacao-de-leao img, .constelacao-de-peixe img, .constelacao-de-virgem img {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+
+}
+
+/* Inicio com os itens nav */
+.fundo {
+    margin-bottom: 10%;
+    background-image: url(imagens/fundo/pexels-benjamin-suter-3617500.jpg);
+    height: 730px;
+    margin: auto;
+}
+
+.itens-da-nav {
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    padding: 24px 0px;
+    text-align: end;
+    height: 37px;
+}
+
+.itens-da-nav li {
+    padding: 7px 35px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 4px #1b7a7980;
+    width: 171px;
+    height: 37px;
+    border-radius: 5px;
+    display: inline;
+    margin-right: 33px;
+}
+
+.itens-da-nav li a {
+    text-decoration: none;
+}
+
+.fundo h1 {
+    text-shadow: -4px 7px 4px #0d0e11c7;
+    padding-top: 350px;
+    margin: auto;
+    text-align: center;
+    width: 572px;
+    height: 67px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Sora', sans-serif;
+    font-size: 60px;
+}
+
+.fundo hr {
+    width: 561px;
+}
+
+.fundo h2 {
+    margin: auto;
+    text-align: center;
+    width: 572px;
+    height: 67px;
+    color: #ffffff;
+    text-shadow: -5px 4px 6px #07161D;
+    font-family: 'Signika Negative', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+}
