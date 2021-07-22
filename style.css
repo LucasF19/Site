@@ -189,3 +189,48 @@ body {
     text-align: center;
     text-shadow: 0px 4px 4px #00000040;
 }
+
+/* Costelação de peixes */
+.constelacao-de-peixe {
+    height: 458px;
+    padding: 20px 0px;
+    background-image: url(imagens/Constelações/stars.png), linear-gradient(to bottom, #4A81A1, #40CBD3);
+}
+
+.constelacao-de-peixe img {
+    float: left;
+    width: 368.49px;
+    height: 381px;
+    margin: 35px 0px 32px 105px;
+}
+
+.constelacao-de-peixe h1 {
+    margin-bottom: 30px;
+    padding: 5px 0px;
+    font-family: 'Gelasio', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 44px;
+    display: auto;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 4px 4px #00000040;
+}
+
+.constelacao-de-peixe p {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-indent: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+/* Constelação de Virgem */ 
+
+
