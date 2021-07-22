@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shanti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
 
 /* Imagens por:
     https://pngtree.com/so/beautiful'&gt;beautiful-fromtree.com
@@ -290,5 +293,75 @@ body {
     margin-left: 50px;
 }
 
+/* Assinar plano */
+
+.assinar-fundo {
+    height: 600px;
+    background-image: url(imagens/assinar/Ultra\ Violet\ Galactic\ Background\ Free\ Vector.jpg);
+}
+
+.assinar-plano {
+    display: inline;
+    margin: 0px auto;
+    padding-top: 20px;
+    top: 38px;
+}
+
+.assinar-plano img {
+    width: 40px;
+}
+
+.assinar-plano h2 {
+    padding: 10px 5px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Solway', serif;
+    margin: auto;
+    background: #9146CC;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+
+.assinar-plano img {
+    padding-right: 10px;
+}
+
+.assinar-plano ul {
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    width: 370px;
+    margin: 30px 35px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Solway', serif;
+    border-radius: 15px;
+}
+
+.assinar-plano li {
+    text-align: left;
+    list-style-type: disc;
+    margin-top: 35px;
+    align-items: baseline;
+    margin-left: 30px;
+}
+
+.valor {
+    font-family: 'Shanti', sans-serif;
+    color: #5CE0A9;
+    font-size: 50px;
+    padding-top: 15px;
+}
+
+.assinar {
+    font-size: 30px;
+    margin: 55px auto 20px auto;
+    padding: 8px 0px;
+    width: 252px;
+    border-radius: 15px;
+    font-family: 'Staatliches', cursive;;
+    color: white;
+    background-color: #964ECF;   
+}
 
 
