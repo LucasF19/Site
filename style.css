@@ -232,8 +232,6 @@ body {
     font: normal normal 18px 'Roboto Slab', serif;
     color: #f6f6f6;
     text-indent: 5px;
-    display: flex;
-    align-items: center;
     margin-left: 5%;
 }
 
@@ -245,7 +243,6 @@ body {
 
 .assinar-plano {
     display: inline-block;
-    padding-top: 20px;
     margin: 0px 5%;
 }
 
@@ -295,15 +292,18 @@ body {
 }
 
 .assinar {
-    font: 30px 'Staatliches', sans-serif;
-    font-size: 30px;
+    font:normal normal 30px 'Staatliches', sans-serif;
     margin: 30px auto;
-    padding: 10px 0px;
+    padding: 8px 0px;
     width: 252px;
     border-radius: 15px;
-    font-family: 'Staatliches', cursive;
+    background-color: #707CE3;
+    
+}
+
+.assinar a {
     color: white;
-    background-color: #707CE3;   
+    text-decoration: none;
 }
 
 
