@@ -10,7 +10,7 @@
 
 /* Imagens por:
     https://pngtree.com/so/beautiful'&gt;beautiful-fromtree.com
-    https://www.pexels.com/pt-br/
+    https://www.pexels.com/pt-br/   
 
     icons:
     https://www.flaticon.com/br/ 
@@ -39,38 +39,40 @@ body {
 
 .itens-da-nav {
     font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
-    padding: 24px 0px;
+    padding-top: 35px;
+    margin: 0px 10px;
     text-align: end;
     height: 37px;
 }
 
 .itens-da-nav li {
-    padding: 7px 35px;
-    font-size: 20px;
+    padding: 10px 15px;
+    font-size: 19px;
     background-color: white;
     box-shadow: 0px 4px 4px #1b7a7980;
     width: 171px;
     height: 37px;
     border-radius: 5px;
     display: inline;
-    margin-right: 33px;
+    margin-right: 30px;
 }
 
 .itens-da-nav li a {
+    color: #006364;
     text-decoration: none;
 }
 
+/* Titulo do site */
+
 .fundo h1 {
-    text-shadow: -4px 7px 4px #0d0e11c7;
-    padding-top: 350px;
-    margin: auto;
-    text-align: center;
-    width: 572px;
-    height: 67px;
     color: #ffffff;
+    padding-top: 350px;
+    margin: 10px auto;
+    text-align: center;
     text-transform: uppercase;
     font-family: 'Sora', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
+    text-shadow: -4px 7px 4px #0d0e11c7;
 }
 
 .fundo hr {
@@ -78,18 +80,13 @@ body {
 }
 
 .fundo h2 {
+    color: #ffffff;
     margin: auto;
     text-align: center;
     width: 572px;
     height: 67px;
-    color: #ffffff;
+    font: normal normal 40px 'Signika Negative', sans-serif;
     text-shadow: -5px 4px 6px #07161D;
-    font-family: 'Signika Negative', sans-serif;;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 49px;
-    display: flex;
 }
 
 /* Div do sumário */
@@ -120,11 +117,9 @@ body {
 }
 
 /* Div da descrição das constelações */
-
 /* Constelação de Libra */
 .constelacao-de-libra {
-    height: 458px;
-    padding: 20px 0px;
+    padding-bottom: 60px;
     background-image: url(imagens/Constelações/stars.png), linear-gradient(to bottom, #4A81A1b2, #84CE3Bb2);
 }
 
@@ -137,36 +132,25 @@ body {
 
 .constelacao-de-libra h1 {
     color: white;
-    margin-bottom: 35px;
-    padding: 5px 0px;
-    font-family: 'Gelasio', serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 44px;
-    display: auto;
+    padding: 20px 0px;
+    font: normal bold 35px 'Gelasio', serif;
     align-items: center;
     text-align: center;
     text-shadow: 0px 4px 4px #00000040;
 }
 
 .constelacao-de-libra p {
-    font-family: 'Roboto Slab', serif;
-    text-indent: 5px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
+    font: normal normal 18px 'Roboto Slab', serif;
     color: #f7f7f7;
     display: flex;
     align-items: center;
-    margin-right: 27px;
+    margin: 0px 5% 0px 27px;
 }
+
 
 /* Constelação de leão */
 .constelacao-de-leao {
-    height: 430px;
-    padding: 20px 0px;
+    padding: 20px 0px 60px 0px;
     background-image: url(imagens/Constelações/stars.png), linear-gradient(to bottom, #4A81A1b2, #FF6A49b2);
 }
 
@@ -177,41 +161,26 @@ body {
     margin: 35px 0px 32px 32px;
 }
 
-.constelacao-de-leao p {
-    font-family: 'Roboto Slab', serif;
-    text-indent: 5px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: #f7f7f7;
-    display: flex;
-    align-items: center;
-    margin: 0px 27px 0px 96px;
-    margin-left: 50px;
-}
-
 .constelacao-de-leao h1{
     color: white;
-    margin-bottom: 30px;
-    margin-right: 27px;
-    margin-left: 96px;
-    padding: 5px 0px;
-    font-family: 'Gelasio', serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 44px;
-    align-items: center;
+    font: normal bold 35px 'Gelasio', serif;
+    padding-bottom: 20px;
     text-align: center;
     text-shadow: 0px 4px 4px #00000040;
 }
 
+.constelacao-de-leao p {
+    font: normal normal 18px 'Roboto Slab', serif;  
+    color: #f7f7f7;
+    align-items: center;
+    margin: 0px 27px 20px 5%;
+}
+
 /* Costelação de peixes */
+
 .constelacao-de-peixe {
-    height: 458px;
-    padding: 20px 0px;
     background-image: url(imagens/Constelações/stars.png), linear-gradient(to bottom, #4A81A1b2, #40CBD3b2);
+    padding: 20px 0px 60px 0px;
 }
 
 .constelacao-de-peixe img {
@@ -223,39 +192,23 @@ body {
 
 .constelacao-de-peixe h1 {
     color: white;
-    padding: 5px 0px;
-    font-family: 'Gelasio', serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 44px;
-    display: auto;
-    align-items: center;
+    font: normal bold 35px 'Gelasio', serif;
+    padding-bottom: 20px;
     text-align: center;
     text-shadow: 0px 4px 4px #00000040;
-    margin-right: 35px;
-    margin-left: 96px;
-    margin-bottom: 30px;
 }
 
 .constelacao-de-peixe p {
     color: #f7f7f7;
-    font-family: 'Roboto Slab', serif;
-    text-indent: 5px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
     display: flex;
-    align-items: center;
-    margin-right: 27px;
+    font: normal normal 18px 'Roboto Slab', serif;
+    margin: 0px 5% 0px 27px;
 }
 
 /* Constelação de Virgem */ 
 .constelacao-de-virgem {
-    height: 448px;
-    padding: 20px 0px;
     background-image: url(imagens/Constelações/stars.png), linear-gradient(to bottom, #4e839fb2, #B355D6b2);
+    padding: 20px 0px 60px 0px;
 }
 
 .constelacao-de-virgem img {
@@ -267,44 +220,33 @@ body {
 
 .constelacao-de-virgem h1 {
     color: white;
-    margin-bottom: 30px;
-    padding: 5px 0px;
-    font-family: 'Gelasio', serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
+    padding-bottom: 20px;
+    font: normal bold 35px 'Gelasio', serif;
     line-height: 44px;
     display: auto;
-    align-items: center;
-    text-align: center;;
+    text-align: center;
     text-shadow: 0px 4px 4px #00000040;
 }
 
 .constelacao-de-virgem p {
+    font: normal normal 18px 'Roboto Slab', serif;
     color: #f6f6f6;
-    font-family: 'Roboto Slab', serif;
     text-indent: 5px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 5%;
 }
 
 /* Assinar plano */
 
 .assinar-fundo {
-    height: 600px;
-    background-image: url(imagens/assinar/Ultra\ Violet\ Galactic\ Background\ Free\ Vector.jpg);
+    background-image: url(imagens/assinar/Ultra\ Violet\ Galactic\ Background\ Free\ Vector.jpg)
 }
 
 .assinar-plano {
-    display: inline;
-    margin: 0px auto;
+    display: inline-block;
     padding-top: 20px;
-    top: 38px;
+    margin: 0px 5%;
 }
 
 .assinar-plano img {
@@ -317,8 +259,9 @@ body {
     font-size: 30px;
     font-family: 'Solway', serif;
     margin: auto;
-    background: #9146CC;
-    border-radius: 15px 15px 0px 0px;
+    background: #707CE3;
+    border-radius: 5px 5px 0px 0px;
+    text-shadow: 0px 4px 4px #00000040;
     
 }
 
@@ -327,41 +270,40 @@ body {
 }
 
 .assinar-plano ul {
-    background-color: white;
     display: inline-block;
+    background-color: white;
     text-align: center;
-    width: 370px;
-    margin: 30px 35px;
+    width: 335px;
+    margin: 30px 30px;
     box-sizing: border-box;
-    font-size: 18px;
-    font-family: 'Solway', serif;
-    border-radius: 15px;
+    font: 18px 'Solway', serif;
+    border-radius: 5px;
 }
 
 .assinar-plano li {
+    vertical-align: top;
     text-align: left;
     list-style-type: disc;
-    margin-top: 35px;
-    align-items: baseline;
-    margin-left: 30px;
+    margin: 20px 0px 0px 30px;
 }
 
 .valor {
     font-family: 'Shanti', sans-serif;
-    color: #5CE0A9;
+    color: #3fac7e;
     font-size: 50px;
     padding-top: 15px;
 }
 
 .assinar {
+    font: 30px 'Staatliches', sans-serif;
     font-size: 30px;
-    margin: 55px auto 20px auto;
-    padding: 8px 0px;
+    margin: 30px auto;
+    padding: 10px 0px;
     width: 252px;
     border-radius: 15px;
-    font-family: 'Staatliches', cursive;;
+    font-family: 'Staatliches', cursive;
     color: white;
-    background-color: #964ECF;   
+    background-color: #707CE3;   
 }
 
 
