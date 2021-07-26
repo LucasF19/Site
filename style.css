@@ -185,7 +185,7 @@ body {
 
 .constelacao-de-peixe img {
     float: left;
-    width: 368.49px;
+    width: 368px;
     height: 381px;
     margin: 35px 0px 32px 32px;
 }
@@ -213,9 +213,8 @@ body {
 
 .constelacao-de-virgem img {
     float: right;
-    width: 368.49px;
-    height: 381px;
-    margin: 35px 0px 32px 32px;
+    width: 368px;
+    margin: 35px 0px 0px 32px;
 }
 
 .constelacao-de-virgem h1 {
@@ -306,4 +305,46 @@ body {
     text-decoration: none;
 }
 
+@media screen and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body, main {
+        width: 100%;
+    }
+
+    .itens-da-nav {
+        display: none;
+    }
+
+    .fundo h2 {
+        width: 420px;
+        font-size: 30px;
+    }
+
+    .fundo hr {
+        margin: 0px auto;
+        width: 90%;
+    }
+
+    .estilo-nav {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .constelacao-de-leao, .constelacao-de-peixe, .constelacao-de-libra, .constelacao-de-virgem {
+        padding: 5px 0px 25px 0px;
+    }
+
+    .constelacao-de-leao img, .constelacao-de-virgem img {
+        padding: 10px;
+        margin: 0px 10%;
+    }
+
+    .constelacao-de-libra img, .constelacao-de-peixe img {
+        margin-top: 5px
+    }
+}
 
