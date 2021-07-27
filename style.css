@@ -17,11 +17,6 @@
 
     */
 
-
-.constelacao-de-libra img, .constelacao-de-leao img, .constelacao-de-peixe img, .constelacao-de-virgem img {
-    width: 100%;
-}
-
 body {
     width: 100%;
     background-color: #717171;
@@ -32,7 +27,7 @@ body {
 
 .fundo {
     margin-bottom: 10%;
-    background-image: url(imagens/fundo/pexels-benjamin-suter-3617500.jpg);
+    background-image: url(imagens/fundo/pexels-mario-cuadros-2793175.jpg);
     height: 730px;
     margin: auto;
 }
@@ -49,7 +44,7 @@ body {
     padding: 10px 15px;
     font-size: 19px;
     background-color: white;
-    box-shadow: 0px 4px 4px #1b7a7980;
+    box-shadow: 0px 4px 4px #645e7a;
     width: 171px;
     height: 37px;
     border-radius: 5px;
@@ -58,7 +53,7 @@ body {
 }
 
 .itens-da-nav li a {
-    color: #006364;
+    color: #312e3f;
     text-decoration: none;
 }
 
@@ -93,7 +88,7 @@ body {
 
 .estilo-nav ul {
     text-align: center;
-    background-image: linear-gradient(to bottom, #01747F, #4D7F92);
+    background-image: linear-gradient(to bottom, #494657, #4D7F92)
 }
 
 .estilo-nav ul li {
@@ -142,7 +137,6 @@ body {
 .constelacao-de-libra p {
     font: normal normal 18px 'Roboto Slab', serif;
     color: #f7f7f7;
-    display: flex;
     align-items: center;
     margin: 0px 5% 0px 27px;
 }
@@ -186,8 +180,8 @@ body {
 .constelacao-de-peixe img {
     float: left;
     width: 368px;
-    height: 381px;
-    margin: 35px 0px 32px 32px;
+    height: 391px;
+    margin: 35px 5% 32px 5%;
 }
 
 .constelacao-de-peixe h1 {
@@ -200,9 +194,8 @@ body {
 
 .constelacao-de-peixe p {
     color: #f7f7f7;
-    display: flex;
     font: normal normal 18px 'Roboto Slab', serif;
-    margin: 0px 5% 0px 27px;
+    margin: 0px 5% 0px 5%;
 }
 
 /* Constelação de Virgem */ 
