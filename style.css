@@ -1,21 +1,15 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shanti&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
-
 /* Imagens por:
     https://pngtree.com/so/beautiful'&gt;beautiful-fromtree.com
     https://www.pexels.com/pt-br/   
 
-    icons:
-    https://www.flaticon.com/br/ 
-
-    */
+    icons:https://www.flaticon.com/br/ 
+*/
 
 body {
     width: 100%;
@@ -27,7 +21,7 @@ body {
 
 .fundo {
     margin-bottom: 10%;
-    background-image: url(imagens/fundo/pexels-mario-cuadros-2793175.jpg);
+    background-image: url(imagens/fundo/pexels-pixabay-355465.jpg);
     height: 730px;
     margin: auto;
 }
@@ -44,12 +38,11 @@ body {
     padding: 10px 15px;
     font-size: 19px;
     background-color: white;
-    box-shadow: 0px 4px 4px #645e7a;
     width: 171px;
     height: 37px;
     border-radius: 5px;
     display: inline;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 .itens-da-nav li a {
@@ -62,16 +55,15 @@ body {
 .fundo h1 {
     color: #ffffff;
     padding-top: 350px;
-    margin: 10px auto;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Sora', sans-serif;
-    font-size: 50px;
+    font: 60px 'Signika Negative', sans-serif; /*Fonte signika Negative*/
     text-shadow: -4px 7px 4px #0d0e11c7;
 }
 
 .fundo hr {
-    width: 561px;
+    margin: 5px auto;
+    width: 40%;
 }
 
 .fundo h2 {
@@ -111,22 +103,22 @@ body {
     padding: 0px 10px;
 }
 
-/* Div da descrição das constelações */
-/* Constelação de Libra */
-.constelacao-de-libra {
-    padding-bottom: 60px;
-    background-image: url(imagens/Constelações/stars.png), linear-gradient(to bottom, #4A81A1b2, #84CE3Bb2);
+/* As Constelações */
+.constelacao-de-leao img, .constelacao-de-virgem img {
+    float: right;
+    width: 368px;
+    margin: 10px 0px 30px 32px;
 }
 
-.constelacao-de-libra img {
+.constelacao-de-libra img, .constelacao-de-peixe img {
     float: left;
     width: 368px;
     height: 391px;
-    margin: 35px 0px 32px 32px;
+    margin: 35px 10px;
 }
 
-.constelacao-de-libra h1 {
-    color: white;
+.box h1 {
+    color: #f1f1f1;
     padding: 20px 0px;
     font: normal bold 35px 'Gelasio', serif;
     align-items: center;
@@ -134,107 +126,44 @@ body {
     text-shadow: 0px 4px 4px #00000040;
 }
 
-.constelacao-de-libra p {
-    font: normal normal 18px 'Roboto Slab', serif;
-    color: #f7f7f7;
-    align-items: center;
-    margin: 0px 5% 0px 27px;
+.box p {
+    font: 18px 'Roboto Slab', serif;
+    color: #f1f1f1;
+    margin: 0px 45px;
 }
 
+/* Constelação de Libra fundo*/
+.constelacao-de-libra {
+    padding-bottom: 60px;
+    background-image: url(imagens/Constelações/stars.png), linear-gradient(to bottom, #4A81A1b2, #84CE3Bb2);
+}
 
-/* Constelação de leão */
+/* Constelação de leão fundo*/
 .constelacao-de-leao {
-    padding: 20px 0px 60px 0px;
     background-image: url(imagens/Constelações/stars.png), linear-gradient(to bottom, #4A81A1b2, #FF6A49b2);
+    padding: 20px 0px 60px 0px;
 }
 
-.constelacao-de-leao img {
-    float: right;
-    width: 368px;
-    height: 391px;
-    margin: 35px 0px 32px 32px;
-}
-
-.constelacao-de-leao h1{
-    color: white;
-    font: normal bold 35px 'Gelasio', serif;
-    padding-bottom: 20px;
-    text-align: center;
-    text-shadow: 0px 4px 4px #00000040;
-}
-
-.constelacao-de-leao p {
-    font: normal normal 18px 'Roboto Slab', serif;  
-    color: #f7f7f7;
-    align-items: center;
-    margin: 0px 27px 20px 5%;
-}
-
-/* Costelação de peixes */
-
+/*Constelação de peixes fundo*/
 .constelacao-de-peixe {
     background-image: url(imagens/Constelações/stars.png), linear-gradient(to bottom, #4A81A1b2, #40CBD3b2);
     padding: 20px 0px 60px 0px;
 }
 
-.constelacao-de-peixe img {
-    float: left;
-    width: 368px;
-    height: 391px;
-    margin: 35px 5% 32px 5%;
-}
-
-.constelacao-de-peixe h1 {
-    color: white;
-    font: normal bold 35px 'Gelasio', serif;
-    padding-bottom: 20px;
-    text-align: center;
-    text-shadow: 0px 4px 4px #00000040;
-}
-
-.constelacao-de-peixe p {
-    color: #f7f7f7;
-    font: normal normal 18px 'Roboto Slab', serif;
-    margin: 0px 5% 0px 5%;
-}
-
-/* Constelação de Virgem */ 
+/* Constelação de Virgem fundo*/ 
 .constelacao-de-virgem {
-    background-image: url(imagens/Constelações/stars.png), linear-gradient(to bottom, #4e839fb2, #B355D6b2);
+    background-image: url(imagens/Constelações/stars.png), linear-gradient(to bottom, #4e839fb2, #883aa5b2);
     padding: 20px 0px 60px 0px;
 }
 
-.constelacao-de-virgem img {
-    float: right;
-    width: 368px;
-    margin: 35px 0px 0px 32px;
-}
-
-.constelacao-de-virgem h1 {
-    color: white;
-    padding-bottom: 20px;
-    font: normal bold 35px 'Gelasio', serif;
-    line-height: 44px;
-    display: auto;
-    text-align: center;
-    text-shadow: 0px 4px 4px #00000040;
-}
-
-.constelacao-de-virgem p {
-    font: normal normal 18px 'Roboto Slab', serif;
-    color: #f6f6f6;
-    text-indent: 5px;
-    margin-left: 5%;
-}
-
-/* Assinar plano */
-
+/*DIV Assinar plano */
 .assinar-fundo {
-    background-image: url(imagens/assinar/Ultra\ Violet\ Galactic\ Background\ Free\ Vector.jpg)
+    background-image: linear-gradient(to left, #33b0b4, #5f65b5);
 }
 
 .assinar-plano {
-    display: block;
+    align-items: center;
+    display: inline-block;
     margin: 0px 5%;
 }
 
@@ -260,7 +189,7 @@ body {
 
 .assinar-plano ul {
     display: inline-block;
-    background-color: white;
+    background-color: #f1f1f1;
     text-align: center;
     width: 335px;
     margin: 30px 30px;
@@ -277,14 +206,15 @@ body {
 }
 
 .valor {
-    font-family: 'Shanti', sans-serif;
+    font-family: 'Solway', serif;
     color: #3fac7e;
-    font-size: 50px;
+    font-size: 45px;
     padding-top: 15px;
 }
 
 .assinar {
-    font:normal normal 30px 'Staatliches', sans-serif;
+    font:normal normal 30px 'Solway', serif;
+    font-weight: normal;
     margin: 30px auto;
     padding: 8px 0px;
     width: 252px;
@@ -314,16 +244,26 @@ body {
     }
 
     .itens-da-nav {
-        display: none;
+        display: inline-block;
+        margin: 10px 10px;
+        
+    }
+
+    .titulo {
+        font-size: 10px;
+    }
+
+    .fundo h1 {
+        font-size: 40px;
     }
 
     .fundo h2 {
-        width: 420px;
+        width: 100%;
         font-size: 30px;
     }
 
     .fundo hr {
-        margin: 0px auto;
+        margin: 5px auto;
         width: 90%;
     }
 
