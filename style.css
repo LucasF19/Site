@@ -234,7 +234,7 @@ body {
 }
 
 .assinar-plano {
-    display: inline-block;
+    display: block;
     margin: 0px 5%;
 }
 
@@ -306,6 +306,11 @@ body {
 
     body, main {
         width: 100%;
+    }
+
+    .assinar-plano {
+        display: block;
+        margin: 0px 20%;
     }
 
     .itens-da-nav {
